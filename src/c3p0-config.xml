@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">
+            <![CDATA[jdbc:mysql://localhost:3306/bookstore?useSSL=false&serverTimezone=Hongkong&useUnicode=true&characterEncoding=utf-8]]>
+        </property>
+        <property name="user">root</property>
+        <property name="password">123</property>
+    </default-config>
+</c3p0-config>
